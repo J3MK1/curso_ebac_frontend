@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color: #760e26;
+    padding: 16px 0;
+    color: #dbdbdb;
+}
+
+header .centerh1 {
+    margin-left: 16px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+} 
+
+header li a{
+    color: #dbdbdb;
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+header li a:hover{
+    text-decoration: underline;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.creation-date{
+    display:block;
+    margin-left: 180px;
+    color:#232124
+}
+
+.articles article img {
+    /*height: 200px;*/
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+
+section h2 {
+    color:#e7e7e7;
+    padding: 12px 0;
+    margin-bottom: 16px;
+    text-align: center;
+    
+}
+
+
+section .h2sports, .h2tech {
+    background-color: #4b4a4d;
+}
+
+section .h2economy, .h2health {
+    background-color: #282529;
+}
+
+
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: #505053;
+    color: #dbdbdb;
+    padding: 4px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.articles article p, .articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.articles article h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#economy, #health {
+    background-color: #adadad;
+}
+
+#sports , #tech {
+    background-color: #dddddd;
+}
+
